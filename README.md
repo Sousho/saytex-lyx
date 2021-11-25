@@ -1,5 +1,5 @@
-# SayTeX
-Speak math, get LaTeX!
+# SayTeX-LyX
+Speak math, get WYSIWYM formulae directly in your LyX editor!
 
 SayTeX is a tool for converting spoken math into LaTeX equations. 
 
@@ -11,13 +11,13 @@ Experience the demo at [demo.saytex.xyz](https://demo.saytex.xyz).
 
 SayTeX is distributed as a Python package, enabling users of it to easily convert between transcribed spoken math and LaTeX.
 
-Paired with a speech recognition service, the SayTeX Python package can be used for dictating LaTeX, as shown in the [demo](https://demo.saytex.xyz).
+SayTeX-LyX is offered as part of the Sousho dictation extension for Talon voice.
 
 The package is [highly configurable](https://saytex.readthedocs.io/en/latest/advancedusage.html).
 
 ## Installation
 
-Install SayTeX using PyPI: `pip install saytex`.
+Install SayTeX using PyPI: `pip install saytex-lyx`.
 
 Read more in the [installation documentation](https://saytex.readthedocs.io/en/latest/gettingstarted.html#installation).
 
@@ -36,10 +36,8 @@ The above minimal example will print `\frac{\pi^2}{6}`. For advanced use, read t
 ## Repository Structure
 
 - `blog`: A collection of Markdown files written during the second half of SayTeX development, in diary format.
-- `demo`: A [Flask](https://github.com/pallets/flask) web server powering the [demo website](https://demo.saytex.xyz).
 - `docs`: Documentation files, generated using [Sphinx](https://sphinx-doc.org), for the [documentation website](https://saytex.readthedocs.io).
 - `experimental`: Everything that is not currently in use by the project, but was experimented with during development and might become useful in the future.
-- `research-proposals`: Two PDF documents defining the goals of and plans for the SayTeX project.
 - `saytex`: The Python package. This is the core of the SayTeX project.
 - `syntax-specifications`: Specifications of the SayTeX Syntax.
 - `tests`: Tests for the Python package.
